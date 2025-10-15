@@ -3,6 +3,7 @@
 ## Dependencies
 - [tmux](https://github.com/tmux/tmux/wiki)
 - [tpm](https://github.com/tmux-plugins/tpm)
+- [git](https://git-scm.com/)
 
 ## Installation
 ### Install Tmux Plugin Manager
@@ -12,7 +13,8 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 ### Clone and install the tmux configuration
 ```bash
-git clone https://github.com/lassejep/tmux_config.git ~/git
+mkdir -p ~/git
+git clone https://github.com/lassejep/tmux_config.git ~/git/
 ln -s ~/git/tmux_config ~/.config/tmux
 ```
 
