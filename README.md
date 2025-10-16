@@ -17,7 +17,7 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 mkdir -p ~/configs
 git clone https://github.com/lassejep/tmux_config.git ~/configs
 cd ~/configs/tmux_config/
-stow -t XDG_CONFIG_HOME .
+stow -t $XDG_CONFIG_HOME .
 ```
 
 ### Install tmux plugins
